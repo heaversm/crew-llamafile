@@ -1,5 +1,7 @@
 # CREW AI Examples
 
+This is a set of scripts (and accompanying (Youtube Tutorial)[https://youtu.be/OUgb3hKSn9U]) that allow you to create AI agents to accomplish tasks such as conducting research and reporting on findings using the [CrewAI](https://www.crewai.com/) Agent Framework and nearly any large language model (through services like Langchain), including locally using [Mozilla's LLamafile](https://github.com/Mozilla-Ocho/llamafile) or Ollama.
+
 ## Basic Example
 
 ### Setup:
