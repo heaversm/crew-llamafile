@@ -50,6 +50,12 @@ This will open an API endpoint at localhost:8080.
 
 `python3 llamafile-app.py`
 
+### User-prompt created agents with Llamafile
+
+The `app-input.py` file allows you to create a custom agent and research task via command line prompt:
+---
+![Providing terminal input to the model to create an agent](images/user-input.jpg)
+---
 ### Multi-agent llamafile
 
 For more complex tasks, you'll need a model with a larger context window. For this, I'll use Llama2:
