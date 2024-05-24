@@ -18,6 +18,7 @@ In terminal, in root folder, type:
 * `pip install 'crewai[tools]'`
 * `pip install dotenv`
 
+
 ### Configuration
 
 In `app.py`:
@@ -59,6 +60,16 @@ The `app-input.py` file allows you to create a custom agent and research task vi
 ---
 ![Providing terminal input to the model to create an agent](images/user-input.jpg)
 ---
+
+### Llamafile Agent from UI input
+
+Uses gradio to allow users to specify agent parameters via web-based text fields
+
+* `pip install gradio`
+* `python3 app-gradio.py`
+* Open web browser at [http://127.0.0.1:7860/](http://127.0.0.1:7860/)
+
+
 
 ### Multi-agent llamafile
 
