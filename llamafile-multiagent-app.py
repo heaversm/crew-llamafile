@@ -18,7 +18,8 @@ researcher = Agent(
   You have a knack for dissecting complex data and presenting actionable insights.""",
   verbose=True,
   allow_delegation=False,
-  tools=[search_tool]
+  tools=[search_tool],
+  llm=llm
 )
 writer = Agent(
   role='Tech Content Strategist',
@@ -26,7 +27,8 @@ writer = Agent(
   backstory="""You are a renowned Content Strategist, known for your insightful and engaging articles.
   You transform complex concepts into compelling narratives.""",
   verbose=True,
-  allow_delegation=True
+  allow_delegation=True,
+  llm=llm
 )
 
 # Create tasks for your agents
